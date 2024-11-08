@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Style+Script&display=swap');
+
+body {
+    font-family: "Outfit", serif;
+    margin: 0;
+    background-color: #f4f4f4;
+
+}
+
+header, footer {
+    background-color: #ff7878;
+    color: #8d0000;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Style Script", cursive;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+header nav ul li a {
+    color: #fff;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    height: 93vh;
+    background-color: bisque;
+    flex: 1;
+}
+
+article h1 {
+    font-size: 23px;
+    width: 800px;
+    text-align: justify;
+    margin-left: 30px;
+    text-transform: uppercase;
+    color: #8d0000;
+}
+
+article img {
+    width: 178px;
+    margin-left: 30px;
+    border-radius: 5%;
+}
+
+article p {
+    font-size: 16px;
+    width: 800px;
+    text-align: justify;
+    margin-left: 30px;
+}
+
+article a {
+        color: #8d0000;
+}
+
+aside {
+    height: 93vh;
+    background-color: brown;
+    width: 35vw;
+    text-align: center;
+}
+
+aside h1 {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    width: 400px;
+    margin-left: 37px;
+    font-size: 25px;
+}
+
+aside img {
+    width: 400px;
+    border-radius: 5%;
+}
+
+aside p {
+    width: 400px;
+    text-align: justify;
+    color: bisque;
+    margin-left: 37px;
+    margin-top: 22px;
+}
+
