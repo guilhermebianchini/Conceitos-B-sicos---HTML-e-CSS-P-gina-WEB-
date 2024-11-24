@@ -90,7 +90,6 @@ aside h1 {
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     width: 400px;
-    margin-left: 37px;
     font-size: 25px;
 }
 
@@ -103,7 +102,6 @@ aside p {
     width: 400px;
     text-align: justify;
     color: bisque;
-    margin-left: 37px;
     margin-top: 22px;
 }
 
